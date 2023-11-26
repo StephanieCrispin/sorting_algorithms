@@ -8,6 +8,7 @@ void quick_sort(int *array, size_t size);
 /**
  * lomuto_partition - Arranges a subset from an array into an ordered
  * collection of integers in ascending order
+ * @array: The array to be partitioned
  * @size: size of the array.
  * @left: starting index of the subset to order.
  * @right:ending index of the subset to be order.
@@ -42,7 +43,7 @@ int lomuto_partition(int *array, size_t size, int left, int right)
 }
 
 /**
- * swap_ints - Swap two integers .
+ * swap_integers - Swap two integers .
  * @a: The first integer to swap.
  * @b: The second integer to swap.
  */
