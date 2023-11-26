@@ -1,5 +1,18 @@
 #include "sort.h"
 
+/**
+ * swap_integers -> swaps two integers
+ * @a: Memory location of first integer
+ * @b: Memory location of second integer
+ */
+
+void swap_integers(int *a, int *b)
+{
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
 /***
  * selection-sort -> Sorts an array by checking for the
  * last item and swapping it with the ordered part of
